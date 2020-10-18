@@ -1,0 +1,242 @@
+[
+    {
+        "_id": "5f8c9e2698bb471e6a1e3739",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1600189467/RestManager/papas.jpg.png",
+        "recipeName": "Mosley Coleman",
+        "description": "Id excepteur cupidatat dolore laborum exercitation est aliquip.",
+        "vegan": true,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Wed Mar 11 1981 01:07:36 GMT+0100 (hora estándar de Europa central)",
+            "updatedAt": "Tue Aug 14 2001 01:16:31 GMT+0200 (hora de verano de Europa central)",
+            "createdBy": "5f8c9e26dae9fa2b69fe8dbc"
+        }
+    },
+    {
+        "_id": "5f8c9e26bb6d147872b1a64e",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1600189087/RestManager/nachos-2979802_640.jpg.png",
+        "recipeName": "Erin Castaneda",
+        "description": "Do ullamco veniam dolor consequat cillum labore anim ullamco elit enim.",
+        "vegan": false,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Sat Aug 09 1975 15:00:11 GMT+0200 (hora de verano de Europa central)",
+            "updatedAt": "Tue Jun 11 2013 01:28:03 GMT+0200 (hora de verano de Europa central)",
+            "createdBy": "5f8c9e2601ae97d09c049e69"
+        }
+    },
+    {
+        "_id": "5f8c9e2635b577028875d887",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1603048897/foodapp/pizza-3007395_640_z2kih2.jpg",
+        "recipeName": "Sanford Roach",
+        "description": "Tempor eiusmod laborum velit nulla amet in.",
+        "vegan": true,
+        "vegetarian": false,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Tue Jan 22 1985 23:36:21 GMT+0100 (hora estándar de Europa central)",
+            "updatedAt": "Sun Nov 24 2013 07:35:26 GMT+0100 (hora estándar de Europa central)",
+            "createdBy": "5f8c9e266061d6436d3006c4"
+        }
+    },
+    {
+        "_id": "5f8c9e26fc69e2717cdf1b7b",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1600188891/RestManager/burger-500054_640.jpg.png",
+        "recipeName": "Downs Wall",
+        "description": "Consectetur tempor nulla excepteur aute deserunt deserunt nostrud velit reprehenderit in cupidatat mollit consequat.",
+        "vegan": true,
+        "vegetarian": false,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Tue Nov 23 1982 12:18:27 GMT+0100 (hora estándar de Europa central)",
+            "updatedAt": "Wed Oct 14 1992 10:10:09 GMT+0100 (hora estándar de Europa central)",
+            "createdBy": "5f8c9e2637c514cb4f08c679"
+        }
+    },
+    {
+        "_id": "5f8c9e26106eadfd2eae40f2",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1603048897/foodapp/pizza-3007395_640_z2kih2.jpg",
+        "recipeName": "Emerson Hampton",
+        "description": "Nulla nisi excepteur dolor laborum irure duis minim est commodo enim.",
+        "vegan": true,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Fri Sep 10 2010 05:58:48 GMT+0200 (hora de verano de Europa central)",
+            "updatedAt": "Tue Jul 07 1992 11:16:47 GMT+0200 (hora de verano de Europa central)",
+            "createdBy": "5f8c9e268b0d6981c119e46d"
+        }
+    },
+    {
+        "_id": "5f8c9e26e82793f5e38f251d",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1600189763/RestManager/hot-dog-5337929_640.jpg.png",
+        "recipeName": "Barrett Shannon",
+        "description": "Nisi elit dolore reprehenderit proident.",
+        "vegan": false,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Thu Dec 23 1999 08:39:47 GMT+0100 (hora estándar de Europa central)",
+            "updatedAt": "Tue Apr 03 1979 02:48:07 GMT+0200 (hora de verano de Europa central)",
+            "createdBy": "5f8c9e26b041bcd1b82bb358"
+        }
+    },
+    {
+        "_id": "5f8c9e261791be27feeb46cc",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1603048897/foodapp/pizza-3007395_640_z2kih2.jpg",
+        "recipeName": "Kaufman Mueller",
+        "description": "Do proident ea dolor dolore est deserunt.",
+        "vegan": false,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Thu Aug 06 1981 21:47:22 GMT+0200 (hora de verano de Europa central)",
+            "updatedAt": "Tue May 03 1977 23:13:46 GMT+0200 (hora de verano de Europa central)",
+            "createdBy": "5f8c9e26f189352465dae9e4"
+        }
+    },
+    {
+        "_id": "5f8c9e26c4be35eee88cc424",
+        "picture": "https://res.cloudinary.com/dkejgwlha/image/upload/v1600189763/RestManager/hot-dog-5337929_640.jpg.png",
+        "recipeName": "Candace Berg",
+        "description": "Proident deserunt irure proident minim excepteur occaecat.",
+        "vegan": false,
+        "vegetarian": true,
+        "ingredients": [
+            {
+                "name": "ingredient 1"
+            },
+            {
+                "name": "ingredient 2"
+            },
+            {
+                "name": "ingredient 3"
+            },
+            {
+                "name": "ingredient 4"
+            },
+            {
+                "name": "ingredient 5"
+            }
+        ],
+        "timeStamps": {
+            "createdAt": "Mon Aug 22 1983 13:21:43 GMT+0200 (hora de verano de Europa central)",
+            "updatedAt": "Fri Jan 01 1982 18:16:59 GMT+0100 (hora estándar de Europa central)",
+            "createdBy": "5f8c9e269b2caf73e73208d1"
+        }
+    }
+]
