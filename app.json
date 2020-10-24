@@ -21,6 +21,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9446440272850773~7372598140"
+      }
     }
   }
 }

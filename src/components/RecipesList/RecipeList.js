@@ -2,27 +2,22 @@ import React from 'react'
 import { StyleSheet, Text, View, FlatList, SafeAreaView } from 'react-native'
 import RecipeCard from './RecipeCard'
 
-const RecipeList = ({ data }) => {
+const RecipeList = ({ data, header }) => {
     return (
-        <SafeAreaView style={listContainer}>
             <FlatList 
                 data={data}
                 renderItem={RecipeCard}
                 keyExtractor={item => item._id}
                 horizontal={false}
                 numColumns={2}
+                style={list}
+                ListHeaderComponent={header}
             />
-        </SafeAreaView>
     )
 }
 
 export default RecipeList
 
-const styles = StyleSheet.create({
-    listContainer: {
-        flex: 1,
-        justifyContent: "center"
-    }
-})
+const styles = StyleSheet.create({})
 
-const { listContainer } = styles
+const { listContainer, list } = styles

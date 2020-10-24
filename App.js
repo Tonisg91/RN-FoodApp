@@ -6,7 +6,7 @@ import { NavigationContainer } from '@react-navigation/native'
 
 enableScreens()
 const { Navigator, Screen } = createDrawerNavigator()
-
+//git test
 export default function App() {
   return (
     <NavigationContainer>

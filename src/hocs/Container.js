@@ -8,7 +8,7 @@ const Container = ({ children, toggleNav }) => {
         <View style={styles.container}>
             <Header cb={toggleNav}/>
             {children}
-            <StatusBar style="auto" />
+            <StatusBar style="auto" backgroundColor="white"/>
         </View>
     )
 }

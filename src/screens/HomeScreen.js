@@ -1,19 +1,34 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from 'react-native'
 import { Container } from '../hocs'
 import data from '../../data.json'
 import RecipeList from '../components/RecipesList/RecipeList'
+import { AdMobBanner } from 'expo-ads-admob'
+import Constants from 'expo-constants'
+
+const testId = 'google-test-id'
+const productionId = 'my-id'
 
 const HomeScreen = ({ navigation }) => {
-    return (
+    // test banner id: ca-app-pub-3940256099942544/6300978111
+
+    // Android Banner: ca-app-pub-9446440272850773/9863686652
+    // Android interstitial
+
+
+    const header = (
         <Container toggleNav={navigation.toggleDrawer}>
             <View style={bannerContainer}>
-                <View style={banner}>
-                    <Text>Banner</Text>
-                </View>
+                <AdMobBanner 
+                    bannerSize="banner"
+                    adUnitID="ca-app-pub-3940256099942544/6300978111"
+                    servePersonalizedAds
+                />
             </View>
-            <RecipeList data={[...data]}/>
         </Container>
+    )
+    return (
+        <RecipeList data={[...data]} header={header}/>
     )
 }
 
@@ -22,13 +37,12 @@ export default HomeScreen
 const styles = StyleSheet.create({
     bannerContainer: {
         padding: 10,
-        backgroundColor: "rgba(0, 0, 0, 0.1)"
+        backgroundColor: "rgba(0, 0, 0, 0.1)",
+        justifyContent: "center",
+        alignItems: "center"
     },
     banner: {
         height: 120,
-        backgroundColor: "rgba(160, 60, 190, 0.5)",
-        alignItems: "center",
-        justifyContent: "center"
     }
 })
 
